@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Task Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        📌 JavaScript Task Dashboard
+    </header>
+
+    <main>
+        <section class="dashboard">
+            <div class="card" onclick="task1()">
+                <h3>Task 1</h3>
+                <p>Access camera & click photo</p>
+                <button>Run</button>
+            </div>
+
+            <div class="card" onclick="task2()">
+                <h3>Task 2</h3>
+                <p>Live stream camera</p>
+                <button>Run</button>
+            </div>
+
+            <div class="card" onclick="task3()">
+                <h3>Task 3</h3>
+                <p>Record video & download</p>
+                <button>Run</button>
+            </div>
+
+            <div class="card" onclick="task4()">
+                <h3>Task 4</h3>
+                <p>Search name in Google & get links</p>
+                <button>Run</button>
+            </div>
+
+            <div class="card" onclick="task5()">
+                <h3>Task 5</h3>
+                <p>Google App Script practice</p>
+                <button>Run</button>
+            </div>
+
+            <div class="card" onclick="task6()">
+                <h3>Task 6</h3>
+                <p>Drag & Drop a div</p>
+                <button>Run</button>
+            </div>
+
+            <div class="card" onclick="task7()">
+                <h3>Task 7</h3>
+                <p>Connect JS with ChatGPT</p>
+                <button>Run</button>
+            </div>
+
+            <div class="card" onclick="task8()">
+                <h3>Task 8</h3>
+                <p>Voice input to ChatGPT</p>
+                <button>Run</button>
+            </div>
+
+            <div class="card" onclick="task9()">
+                <h3>Task 9</h3>
+                <p>Generate image from ChatGPT prompt</p>
+                <button>Run</button>
+            </div>
+        </section>
+
+        <section class="output">
+            <h2>Output Area</h2>
+            <div id="outputBox"></div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
